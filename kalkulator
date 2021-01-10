@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include <math.h>
+#include <ostream>
+using namespace std;
+void Kalkulator(int a,int b){
+	int ops;
+	if(ops=='+'){
+		cout<<a+b;
+	}
+	if(ops=='-'){
+		cout<<a-b;
+	}
+}
+int main() {
+    int a,b,ops,rez;
+	cout<<"Upisi brojeve: \n";
+    cin>>a>>b;
+    cout<<"Izaberi operator: ";
+	cin>>ops;
+	cout<<Kalkulator;     
+    Kalkulator(a,b);
+    return 0;
+}
